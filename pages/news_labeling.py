@@ -6,7 +6,7 @@ from pathlib import Path
 sys.path.append(str(Path(__file__).parent.parent))
 
 from utils.auth import require_auth, init_session_state
-from models.news_classifier import NewsClassifier
+from app.models.news_classifier import NewsClassifier
 from database.db_manager import DatabaseManager
 import plotly.graph_objects as go
 import pandas as pd
