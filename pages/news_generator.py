@@ -6,9 +6,9 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).parent.parent))
 
-from app.models.news_generator import NewsGenerator
-from app.utils.auth import init_session_state, require_auth
-from app.database.db_manager import DatabaseManager
+from models.news_generator import NewsGenerator
+from utils.auth import init_session_state, require_auth
+from database.db_manager import DatabaseManager
 import plotly.graph_objects as go
 
 try:

@@ -1,11 +1,8 @@
 import pickle
-import numpy as np
-from pathlib import Path
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestClassifier
 import config
 import streamlit as st
-import re
 
 class FakeNewsDetector:
     def __init__(self):
